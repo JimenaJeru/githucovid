@@ -1,0 +1,177 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.covidtracking2.FragmentEval1">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="362dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Gracias. Voy a hacerte algunas preguntas sobre tus síntomas."
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:text="¿Cùantos años tienes?" />
+
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Fumas?" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="312dp"
+                android:layout_height="111dp"
+                android:text="¿Te han diagnosticado presión arterial alta?" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tienes diabetes?" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="312dp"
+                android:layout_height="112dp"
+                android:text="¿Has tenido fiebre en las últimas 24 horas?" />
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tienes tos?" />
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Sientes un cansancio extremo?" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tienes dolor de cabeza o jaqueca?" />
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="314dp"
+                android:layout_height="102dp"
+                android:text="¿Tienes dolor o molestia generalizada en los músculos?" />
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tienes dolor de garganta?" />
+
+            <Switch
+                android:id="@+id/switch10"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tienes diarrea?" />
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Se ha disminuido o ha desaparecido tu sentido del olfato o gusto?" />
+
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tu nariz produce mucosidad?" />
+
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="312dp"
+                android:layout_height="62dp"
+                android:text="¿Tus ojos están rojos, doloridos o producen una secreción inusual?" />
+
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="312dp"
+                android:layout_height="150dp"
+                android:text="¿Te han informado que tuviste contacto cercano en los últimos 14 días con una persona positiva en COVID-19? (Por ejemplo, por las autoridades sanitarias, una aplicación de rastreo de contactos o una persona afectada)" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="312dp"
+                android:layout_height="122dp"
+                android:gravity="center"
+                android:text="Algunas personas pueden contraer un tipo más severo de COVID-19. Ahora, te haré algunas preguntas para determinar si perteneces a uno de los grupos de riesgo que puede desarrollar esta forma más grave."
+                android:textColor="#2196F3" />
+
+            <Button
+                android:id="@+id/botonevaluar"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondo"
+                android:text="Evaluar" />
+
+            <Button
+                android:id="@+id/botonedad"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bordes_color"
+                android:text="Limpiar" />
+
+            <TextView
+                android:id="@+id/textVieweval"
+                android:layout_width="306dp"
+                android:layout_height="116dp"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textVieweval2"
+                android:layout_width="307dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonEnviarCalendario"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_cel"
+                android:text="Guardar Evaluacion " />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

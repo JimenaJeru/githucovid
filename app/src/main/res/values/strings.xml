@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CovidTracking</string>
+    <string name="texVNombre">Nombre</string>
+    <string name="texVUsuario">Usuario</string>
+    <string name="TexVCAracteristicas">Caracteristicas</string>
+    <string name="texVComunicase">Enviar Mensaje</string>
+    <string name="texVEdad">Edad</string>
+    <string name="btnAlimentacion">Alimentacion</string>
+    <string name="btnPrevencion">Prevención</string>
+    <string name="btnEditar">Editar Perfil</string>
+    <string name="btnCambiarContrasenia">Cambiar Contraseña</string>
+    <string name="textView2_String">A medida que COVID-19 continúa propagándose, queremos ayudarte a ti y a tus seres queridos a prepararse y protegerse mutuamente estas son las recomendaciones</string>
+    <string name="texttView1_String">Siga estos pasos sencillos para ayudar a prevenir la propagación del COVID-19.</string>
+    <string name="texttViewSint_String">Sintomas de Covid-19</string>
+    <string name="texttViewinfo1_String">Uno de los síntomas más frecuentes es el dolor de cabeza agudo </string>
+    <string name="texttViewinfo2_String">
+Tos coronavirus tos seca o no productiva No produce expectoración tos productiva que produce expectoración tos seca no se consigue expectorar y se produce la deglución de mucosidad
+</string>
+    <string name="texttViewSint3_String"> El dolor de garganta es un posible sintomas de covid-19</string>
+    El dolor de garganta es un posible sintomas de covid-19
+    <string name="texttViewinfo4_String"> Los pacientes que presentan covico falta de aire usualmente sentirán una severidad mayor de jadeos o de estornudos para respirar y expirar </string>
+    <!-- Strings used for fragments for navigation -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texttViewinfo5_String">Congestion nasal </string>
+    <string name="texttViewinfo6_String">La fatiga el en todo lo que hace por el echo de que no esta respirando bien y la fiebre </string>
+    <string name="texttViewinfo7_String">La fiebre debido a que el cuerpo presenta amenazas este no anda anticuerpos para contrarrestar la pero no siendo lo suficiente el cuerpo tendrá una fiebre muy alta </string>
+    <string name="texttViewinfo8_String">
+En algunos casos se puede presentar la diarrea como otros síntomas del contagio de covid ya que sucede a la minoría de las personas pero es muy peligrosa debido a el estado en que una persona puede llegar a estar
+</string>
+    <string name="texttViewinfo9_String">
+En algunos casos se puede presentar  la pérdida del Sentido del olfato debido a que el virus se aloja ahí y impide que la persona pueda sentir olores
+</string>
+    <string name="texttViewinfo10_String">El paciente puede sufrir de dolores musculares por el hecho de que este virus afecta al sistema respiratorio y el cuerpo carece de oxígeno y que cuesta más trabajo hacer cualquier movimiento causando  dolor.  </string>
+    <string name="TextView_String">1-Signos de ataque al corazón (dolor fuerte y sensación de opresión en el centro del pecho).  2-Signos de derrame cerebral (cara caída de un lado, debilidad en los brazos, dificultad para hablar).  3-Dificultad severa para respirar (jadeos, incapacidad para completar una oración, asfixia o labios azulados).  4-Esiones graves como las que se producen luego de un accidente.  5-Una convulsión (también conocida como ataque epiléptico).  6-Sangrado intenso. 6-Hinchazón repentina y rápida en los ojos, labios, boca, garganta o lengua.</string>
+    <string name="TextView1_String">Esta herramienta de evaluación no es adecuada si tienes:</string>
+    <string name="Buttun2_String">No tengo ninguno de estos síntomas</string>
+    <string name="TextViewInf1_String">¿Qué posibilidades hay de que me contagie de COVID-19?</string>
+    <string name="TextViewInf11_String">El COVID-19 ha llegado a casi todos los países del mundo. Pero si no te encuentras en un área donde COVID-19 se está propagando localmente, tus posibilidades de contraerlo son relativamente bajas. Si estás en un área con transmisión local, debes tomar el riesgo en serio. Donde quiera que estés, sigue las medidas de prevención recomendadas. En cualquier caso, la situación está cambiando rápidamente, y es bueno actualizarse acerca de la situación actual de tu autoridad de salud local.</string>
+    <string name="TextViewInf2_String">¿Por qué algunas personas tienen síntomas más graves que otras?</string>
+    <string name="TextViewInf12_String">Si bien las personas de todas las edades son susceptibles a la infección por COVID-19, cuatro de cada cinco presentan síntomas leves a moderados, y se recuperan. Las personas mayores de 60 años y con enfermedades médicas preexistentes, como enfermedades cardiovasculares, diabetes o presión arterial alta, tienen más probabilidad de enfermarse gravemente. La población infantil parece estar menos afectada.</string>
+    <string name="TextViewInf3_String">¿Cuáles son los síntomas típicos de COVID-19?</string>
+    <string name="TextViewInf13_String">Los síntomas típicos son fiebre, tos seca, dificultad para respirar y fatiga. Pero los pacientes con COVID-19 también mostraron otros síntomas como dolor de cabeza, dolores y dolores musculares generalizados, dolor de garganta, diarrea, disminución o pérdida del sentido del olfato y gusto, secreción nasal y ojos rojos o adoloridos.</string>
+    <string name="TextViewInf4_String">¿Es posible infectarse sin presentar síntomas?</string>
+    <string name="TextViewInf14_String">Muchas personas con COVID-19 no desarrollan síntomas. Un estudio reciente en una aldea afectada en Italia mostró que el 43.2 por ciento de los casos confirmados no desarrollaron ningún síntoma de COVID-19. Las infecciones asintomáticas por COVID-19 pueden ser más comunes en mujeres embarazadas, donde un estudio encontró que solo una de cada diez mujeres desarrollaron síntomas de la infección. La población infantil también suele ser asintomática.</string>
+    <string name="TextViewInf5_String">¿Puede el COVID-19 causar la muerte?</string>
+    <string name="TextViewInf15_String">Es posible morir por complicaciones de COVID-19,, pero solo un pequeño porcentaje (del 3–4 por ciento) de las personas infectadas desarrollan un caso de infección tan grave que mueren. Esto significa que la mayoría de las personas infectadas se recuperan. La mortalidad es mayor en personas mayores de 60 años, y personas con enfermedades preexistentes.</string>
+    <string name="TextViewInf6_String">¿Cómo se transmite el coronavirus?</string>
+    <string name="TextViewInf16_String">La transmisión de COVID-19 es similar a otros virus respiratorios. Se transmite principalmente a través de pequeñas gotas que se crean cuando una persona infectada estornuda o tose. Normalmente, estas gotas solo llegan a las personas (u objetos / superficies) muy cerca de la persona infectada. La regla general es que las gotas pueden extenderse de uno a dos metros, pero no más allá de eso. El virus no parece ser transmitido por la ruta fecal-oral, pero existe alguna evidencia de que transmisión ocurre a través de micropartículas que se pueden quedar en el aire después de acciones como cantar o hablar fuerte.</string>
+    <string name="TextViewInf7_String">¿El virus es transmitido sólo por personas enfermas?</string>
+    <string name="TextViewInf17_String">Las personas que no tienen síntomas también pueden transmitir COVID-19. Los estudios sugieren que la transmisión pre- o asintomática podría ser responsable del 40-60 por ciento de las infecciones. Parece que las personas son más infecciosas el día anterior al inicio de los síntomas.</string>
+    <string name="TextViewInf8_String">¿Cuánto tiempo sobrevive el virus en las superficies?</string>
+    <string name="TextViewInf18_String">Los primeros hallazgos indican que COVID-19 puede permanecer en las superficies desde unas pocas horas hasta varios días, dependiendo del tipo de superficie, temperatura y humedad. Puedes usar desinfectante estándar para limpiar superficies y evitar infecciones. El COVID-19 no se propaga a través de cartas o paquetes provenientes de una región afectada.</string>
+    <string name="TextViewInf9_String">¿Cuál es el período de incubación de COVID-19?</string>
+    <string name="TextViewInf19_String">El período de incubación es el tiempo entre la infección y el primer inicio de los síntomas. El período de incubación promedio para COVID-19 es de alrededor de cinco a seis días, pero puede variar de uno a 14 días.</string>
+    <string name="TextViewInf21_String">¿Por cuánto tiempo es infecciosa una persona con COVID-19?</string>
+    <string name="TextViewInf121_String">Aún hay poca información disponible sobre la duración de la infección. El virus puede detectarse durante varias semanas en muestras de personas infectadas, pero eso no significa que el virus sea activo e infeccioso. Un pequeño estudio demostró que el virus activo era detectable en hisopos de garganta hasta cuatro días después del inicio de los síntomas, y hasta ocho días en muestras de esputo. El virus activo no se detectó en sangre, heces u orina. Los resultados de este estudio sugieren que las personas permanecen infecciosas hasta por ocho días, con una infección reducida después de cuatro días. Estos resultados deben confirmarse en un estudio más amplio.</string>
+    <string name="TextViewInf22_String">¿Puedo enfermarme de COVID-19 más de una vez?</string>
+    <string name="TextViewInf122_String">Todavía no se tiene experiencias a largo plazo con COVID-19. Los estudios han demostrado que las personas infectadas desarrollan anticuerpos, que los protegen de otra infección. Queda por ver cuánto tiempo dura esta inmunidad.</string>
+    <string name="Sugerencias">Enviar Sugerencias</string>
+    <string name="a" />
+    <string name="brtnEnviar">Enviar</string>
+    <string name="Eliminar">Eliminar Cuenta</string>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/celesxd"
+    android:orientation="vertical"
+    tools:context=".Sugerencias">
+
+    <EditText
+
+        android:id="@+id/editTextlastName2"
+        android:layout_width="268dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bordes_blanco"
+        android:hint="Ingrese su sugerencia"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#E90C0A0A"
+        android:textColorHint="#131212"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <Button
+        android:id="@+id/btnSugerencia"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/boton_redondo"
+        android:onClick="enviarSugenrencia"
+        android:text="@string/brtnEnviar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextlastName2" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="312dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="28dp"
+        android:text="Bien benido al buzon de sugerencias"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="225dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="28dp"
+        android:text="Decea realizar alguna sugerencia sobre el proyecto o contarnos si tubo algun contratiempo al usar  el proyecto"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:background="#FF9800"
+
+        app:itemTextColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/main_menu" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSugerencia"
+        app:srcCompat="@drawable/sugerencia1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
